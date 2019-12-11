@@ -1,0 +1,944 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/helvetica.css">
+
+  <title>PEPSUS 23</title>
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <div class="container">
+    <h1>Ervas regulamentadas pela ANVISA</h1>
+    <div id=linha></div>
+    <!-- <h4> A Unidade de Saúde, em sua sala de procedimentos deverá contar com os seguintes materiais (CFM, 2014): </h4> -->
+  </div>
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+        </div>
+
+        <div class="col-8">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="imgs/01_Alcachofra.jpg" alt="Alcachofra">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Alcachofra </br>
+                    <i>Cynara scolymus</i>
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/02_Alcaçuz.png);">
+                <!-- <img class="d-block w-100" src="imgs/02_Alcaçuz.png" alt="Alcaçuz"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5 class="tituloCarousel">Alcaçuz </br>
+                      <i>Glycyrrhiza glabra</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/03_Alecrim.jpg);">
+                <!-- <img class="d-block w-100" src="imgs/03_Alecrim.jpg" alt="Alecrim"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5 class="tituloCarouse">Alecrim </br>
+                      <i>Rosmarinus officinalis</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/04_Alecrim_Pimenta.jpg);">
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Alecrim pimenta </br>
+                      <i>Lippia sidoides </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/05_Alho.jpg);">
+                <!--  <img class="d-block w-100" src="imgs/05_Alho.jpg" alt="Alho"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Alho</br>
+                      <i>Allium sativum</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/06_Anis_estrelado.jpg);">
+        <!--         <img class="d-block w-100" src="imgs/06_Anis_estrelado.jpg" alt="Anis Estrelado"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5> Anis estrelado </br>
+                      <i>llicium verum</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/07_Anis_Ervadoce.jpg);">
+         <!--        <img class="d-block w-100" src="imgs/07_Anis_Erva doce.jpg" alt="Anis Erva Doce"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Anis, Erva doce </br>
+                      <i>Pimpinela anisum</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/08_arnica.png);">
+               <!--  <img class="d-block w-100" src="imgs/08_arnica.png" alt="Arnica"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Arnica </br>
+                      <i>Arnica Montana</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/09_Aroeira_da_praia.jpg);">
+         <!--        <img class="d-block w-100" src="imgs/09_Aroeira_da_praia.jpg" alt="Aroeira da Praia"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Aroeira da Praia </br>
+                      <i>Schinus terebinthifolia </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/10_Assa_peixe.jpg);">
+          <!--       <img class="d-block w-100" src="imgs/10_Assa_peixe.jpg" alt="Assa peixe"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Assa Peixe </br>
+                      <i>Vernonia polyanthes</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/11_Barbatimão.jpg);">
+              <!--   <img class="d-block w-100" src="imgs/11_Barbatimão.jpg" alt="Bartimão"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Barbatimão </br>
+                      <i>Stryphnoden dromadstrigens</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/12-bardana.jpg);">
+      <!--           <img class="d-block w-100" src="imgs/12_Bardana.jpg" alt="Bardana"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Bardana </br>
+                      <i>Arctium lappa</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/13_Boldo_baiano.jpg);">
+           <!--      <img class="d-block w-100" src="imgs/13_Boldo_baiano.jpg" alt="Boldo Baiano"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Boldo baiano</br>
+                      <i>Vernonia condensata</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/14_Boldo_do_Chile.jpg);">
+<!--                 <img class="d-block w-100" src="imgs/14_Boldo_do_Chile.jpg" alt="Boldo do Chile"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Boldo do Chile </br>
+                      <i>Peumus boldus</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/15_Boldo_nacional.jpg);">
+<!--                 <img class="d-block w-100" src="imgs/15_Boldo_nacional.jpg" alt="Boldo Nacional"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Boldo nacional, hortelã homem, </br>
+                      falso boldo, boldo africano </br>
+                      <i>Plectranthus barbatus</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/16_Cajueiro.jpg);">
+      <!--           <img class="d-block w-100" src="imgs/16_Cajueiro.jpg" alt="Cajueiro"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Cajueiro </br>
+                      <i>Anacardium occidentale</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/17_Calêndula.jpg);">
+             <!--    <img class="d-block w-100" src="imgs/17_Calêndula.jpg" alt="Calêndula"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Calêndula </br>
+                      <i>Calendula officinalis </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/18_Camomila.jpg);">
+          <!--       <img class="d-block w-100" src="imgs/18_Camomila.jpg" alt="Camomila"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Camomila </br>
+                      <i>Matricaria recutita</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/19_Canela.jpg);">
+<!--                 <img class="d-block w-100" src="imgs/19_Canela.jpg" alt="Canela"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Canela </br>
+                      <i>Cinnamomum verum </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/20_Capim_Santo.png);">
+           <!--      <img class="d-block w-100" src="imgs/20_Capim_Santo.png" alt="Capim Santo"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Capim santo, capim limão, capim cidreira, cidreira. </br>
+                      <i>Cymbopogon citratus </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/21_Carqueja.jpg);">
+            <!--     <img class="d-block w-100" src="imgs/21_Carqueja.jpg" alt="Carqueja"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Carqueja </br>
+                      <i>Baccharis trimera</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/22_Cáscara_sagrada.jpg);">
+     <!--            <img class="d-block w-100" src="imgs/22_Cáscara_sagrada.jpg" alt="Cáscara Sagrada"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Cáscara sagrada </br>
+                      <i> Rhamnus purshiana </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/23_Castanha_da_índia.jpg);">
+         <!--        <img class="d-block w-100" src="imgs/23_Castanha_da_índia.jpg" alt="Castanha da índia"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Castanha da Índia </br>
+                      <i> Aesculus hippocastanum </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/24_Cavalinha.png);">
+<!--                 <img class="d-block w-100" src="imgs/24_Cavalinha.png" alt="Cavalinha"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Cavalinha </br>
+                      <i>Equisetum arvense</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/25_Chambá.jpg);">
+<!--                 <img class="d-block w-100" src="imgs/25_Chambá.jpg" alt="Chambá"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Chambá, chachambá, trevo cumaru</br>
+                      <i>Cynara scolymus</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/26-chapeudecouro.png);">
+<!--                 <img class="d-block w-100" src="imgs/26-chapeudecouro.png" alt="Chapéu de Couro"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Chapéu de Couro</br>
+                      <i>Echinodorus macrophyllus </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/27_Curcuma.jpg);">
+          <!--       <img class="d-block w-100" src="imgs/27_Curcuma.jpg" alt="Curcuma"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Curcuma, açafrão da terra </br>
+                      <i>Curcuma longa</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/28_Dente_de_leão.jpg);">
+ <!--                <img class="d-block w-100" src="imgs/28_Dente_de_leão.jpg" alt="Dente de leão"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Dente de Leão </br>
+                      <i>Taraxacum officinale</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/29_Erva_baleeira.JPG);">
+  <!--               <img class="d-block w-100" src="imgs/29_Erva_baleeira.JPG" alt="Erva baleeira"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Erva baleeira </br>
+                      <i>Cordia verbenácea </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/30-falsamelissa.jpg);">
+<!--                 <img class="d-block w-100" src="imgs/30_Erva_Cidreira_Falsa Melissa.jpg"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Erva cidreira, falsa melissa </br>
+                      <i>Lippia Alba </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/31_Erva_de_bicho.jpg);">
+     <!--            <img class="d-block w-100" src="imgs/31_Erva_de_bicho.jpg" alt="Erva de bicho"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Erva de bicho, pimenteira d’água </br>
+                      <i>Polygonum punctatum </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/32_Espinheira_santa.jpg);">
+<!--                 <img class="d-block w-100" src="imgs/32_Espinheira_santa.jpg" alt="Espinheira Santa"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Espinheira santa </br>
+                      <i> Maytenus ilicifolia </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/33_Eucalipto.jpg);">
+<!--                 <img class="d-block w-100" src="imgs/33_Eucalipto.jpg" alt="Eucalipto"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Eucalipto </br>
+                      <i>Eucalyptus globulus </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/34_Garra_do_diabo.png);">
+<!--                 <img class="d-block w-100" src="imgs/34_Garra_do_diabo.png" alt="Garra do Diabo"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Garra do diabo </br>
+                      <i>Harpagophy tumprocumbens </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/35_Gengibre.jpg);">
+<!--                 <img class="d-block w-100" src="imgs/35_Gengibre.jpg" alt="Gengibre"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Gengibre </br>
+                      <i> Gingiber officinale </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/36-goiabeira.png);">
+<!--                 <img class="d-block w-100" src="imgs/36-goiabeira.png" alt="Goiabeira"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Goiabeira </br>
+                      <i>Psidium guajava </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/37_Guaçatonga.jpg);">
+<!--                 <img class="d-block w-100" src="imgs/37_Guaçatonga.jpg" alt="Guaçatonga"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Guaçatonga, erva de lagarto </br>
+                      <i>Casearia sylvestris</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/38_Guaco.jpg);">
+<!--                 <img class="d-block w-100" src="imgs/38_Guaco.jpg" alt="Guaco"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Guaco </br>
+                      <i>Mikania glomerata</i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="mask" style="background-image: url(imgs/39_Guaraná.jpg);">
+<!--                 <img class="d-block w-100" src="imgs/39_Guaraná.jpg" alt="Guaraná"> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="bg-color">
+                    <h5>Guaraná </br>
+                      <i>Paullinia cupana </i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/40_Hamamélis.jpg);">
+  <!--             <img class="d-block w-100" src="imgs/40_Hamamélis.jpg" alt="Hamamélis"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Hamamélis </br>
+                    <i>Hamamelis virginianas </i>
+                  </h5>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/41_Hortelã_pimenta.jpg);">
+     <!--          <img class="d-block w-100" src="imgs/41_Hortelã_pimenta.jpg" alt="Hortelã Pimenta"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Hortelã pimenta </br>
+                    <i>Mentha x piperita </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/42-juca.png);">
+<!--               <img class="d-block w-100" src="imgs/42-juca.png" alt="Jucá"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Jucá, pau ferro </br>
+                    <i>Caesalpinia férrea </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/43_Jurubeba.jpg);">
+         <!--      <img class="d-block w-100" src="imgs/43_Jurubeba.jpg" alt="Jurubeba"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Jurubeba </br>
+                    <i>Solanum paniculatum</i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/44-laranjaamarga.png);">
+<!--               <img class="d-block w-100" src="imgs/44-laranjaamarga.png" alt="Laranja Amarga"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Laranja amarga </br>
+                    <i>Citrus aurantium </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/45-macela.png);">
+  <!--             <img class="d-block w-100" src="imgs/45-macela.png" alt="Marcela"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Macela, marcela </br>
+                    <i>Chyrocline satureioides </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/46_Malva.jpg);">
+       <!--        <img class="d-block w-100" src="imgs/46_Malva.jpg" alt="Malva"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Malva </br>
+                    <i>Malva sylvestris</i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/47_Maracujá_doce.jpg);">
+<!--               <img class="d-block w-100" src="imgs/47_Maracujá_doce.jpg" alt="Maracujá Doce"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Maracujá doce </br>
+                    <i>Passiflora alata </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/48_Maracujaflordapaixão.jpg);">
+<!--               <img class="d-block w-100" src="imgs/48_Maracujá_ flor da paixão.jpg" alt="Maracujá- Flor da Paixão"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Maracujá flor da paixão </br>
+                    <i>Passiflora incarnata </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/49_Maracujá_azedo.jpg);">
+<!--               <img class="d-block w-100" src="imgs/49_Maracujá_azedo.jpg" alt="Maracujá Azedo"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Maracujá azedo </br>
+                    <i>Passiflora edulis </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/50_Melão_de_São_Caetano.jpg);">
+    <!--           <img class="d-block w-100" src="imgs/50_Melão_de_São_Caetano.jpg" alt="Melão de São Caetano"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Melão de São Caetano </br>
+                    <i>Momordica charantia </i>
+                  </h5>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/51-melissa-ervacidreira.jpg);">
+          <!--     <img class="d-block w-100" src="imgs/51_Melissa_erva cidreira.jpg" alt="Melissa- Erva Cidreira"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Melissa, erva cidreira </br>
+                    <i>Melissa officinalis </i>
+                  </h5>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/52-catingadebode.jpg);">
+<!--               <img class="d-block w-100" src="imgs/52-catinga de bode.jpg" alt="Mentrasto - Catinga de Bode"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Mentrasto, catinga de bodea </br>
+                    <i>Ageratum conyzoides </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/53_Mil_folhas.jpg);">
+         <!--      <img class="d-block w-100" src="imgs/53_Mil_folhas.jpg" alt="Mil folhas"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Mil folhas
+                    </br>
+                    <i>Achillea millefolium </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/54-mulungu.png);">
+     <!--          <img class="d-block w-100" src="imgs/54-mulungu.png" alt="Mulungu"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Mulungu</br>
+                    <i>Erythrina verna </i>
+                  </h5>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/55-picao.png);">
+          <!--     <img class="d-block w-100" src="imgs/55-picao.png" alt="Picão"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Picão </br>
+                    <i>Bidens pilosa</i>
+                  </h5>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/56_Pitangueira.jpg);">
+  <!--             <img class="d-block w-100" src="imgs/56_Pitangueira.jpg" alt="Pitangueira"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Pitangueira </br>
+                    <i>Eugenia uniflora </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/57_Poejo.jpg);">
+   <!--            <img class="d-block w-100" src="imgs/57_Poejo.jpg" alt="Poejo"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Poejo </br>
+                    <i>Mentha pulegium </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/58_Polígala.jpg);">
+              <img class="d-block w-100" src="imgs/58_Polígala.jpg" alt="Polígaga">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Polígala </br>
+                    <i>Polygala senega </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/59_Quebrapedra.jpg);">
+         <!--      <img class="d-block w-100" src="imgs/59_Quebra pedra.jpg" alt="Quebra pedra"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Quebra pedra </br>
+                    <i>Phyllanthus niruri</i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/60-roma.png);">
+         <!--      <img class="d-block w-100" src="imgs/60-roma.png" alt="Romã"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Romã </br>
+                    <i>Punica granatum </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/61_Sabugueiro.jpg);">
+<!--               <img class="d-block w-100" src="imgs/61_Sabugueiro.jpg" alt="Sabugueiro"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Sabugueiro </br>
+                    <i>Sambucus nigra </i>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/62_Salgueiro.jpg);">
+         <!--      <img class="d-block w-100" src="imgs/62_Salgueiro.jpg" alt="Salgueiro"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Salgueiro </br>
+                    <i> Salix alba </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/63_Sálvia.jpg);">
+           <!--    <img class="d-block w-100" src="imgs/63_Sálvia.jpg" alt="Sálvia"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Sálvia </br>
+                    <i> Salvia officinalis </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/64_Sene.jpg);">
+     <!--          <img class="d-block w-100" src="imgs/64_Sene.jpg" alt="Sene"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Sene </br>
+                    <i>Senna alexandrina </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/65-tanchagem.png);">
+             <!--  <img class="d-block w-100" src="imgs/65-tanchagem.png" alt="Tanchagem"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Tanchagem, tansagem, tranchagem </br>
+                    <i>Plantago major </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="mask" style="background-image: url(imgs/66-unhadegato.jpg);">
+       <!--        <img class="d-block w-100" src="imgs/66_Unha de gato.jpg" alt="Unha de gato"> -->
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-color">
+                  <h5>Unha de gato </br>
+                    <i>Uncaria tomentosa </i>
+                  </h5>
+                </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-2">
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
